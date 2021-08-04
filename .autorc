@@ -1,0 +1,12 @@
+{
+  "plugins": [
+    "git-tag",
+    "all-contributors",
+    "conventional-commits"
+  ],
+  "owner": "pboi20",
+  "repo": "intuit-auto-test",
+  "name": "Release Manager",
+  "email": "bob@test.test",
+  "onlyPublishWithReleaseLabel": true
+}
