@@ -1,4 +1,4 @@
 export default function foo() {
-    console.log("Foo")
+    console.log("foo")
 }
 
