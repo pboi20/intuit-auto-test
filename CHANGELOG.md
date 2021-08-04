@@ -1,4 +1,4 @@
-# (Wed Aug 04 2021)
+# v0.2.0 (Wed Aug 04 2021)
 
 #### 🚀 Enhancement
 
@@ -11,15 +11,4 @@
 #### Authors: 1
 
 - Patrick Boivin ([@pboi20](https://github.com/pboi20))
-
----
-
-# (Wed Aug 04 2021)
-
-
-
----
-
-# (Wed Aug 04 2021)
-
 
