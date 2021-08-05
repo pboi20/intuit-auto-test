@@ -1,5 +1,7 @@
-export default function foo() {
-    console.log("foo")
-    console.log("foo")
-    console.log("foo")
+export default class Foo {
+    foo() {
+        console.log("foo")
+        console.log("foo")
+        console.log("foo")
+    }
 }
