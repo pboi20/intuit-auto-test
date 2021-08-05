@@ -1,3 +1,31 @@
+# v1.0.0 (Thu Aug 05 2021)
+
+### Release Notes
+
+#### Major refactor of foo and bar ([#12](https://github.com/pboi20/intuit-auto-test/pull/12))
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam elementum sed velit in pretium. Donec faucibus vestibulum sapien sit amet dignissim. Mauris quis odio libero. Proin eu nunc ac leo tempus accumsan. Nulla id metus eu nunc dapibus suscipit eu quis sem. Ut ornare fringilla nisl sit amet faucibus. Curabitur elementum pharetra lorem, ac interdum augue auctor ut. Pellentesque gravida hendrerit lectus, nec ultricies nibh. Nulla urna nibh, iaculis eu quam vel, lacinia consequat quam.
+
+#### fix(docs): Update foo.md ([#13](https://github.com/pboi20/intuit-auto-test/pull/13))
+
+Mauris quis odio libero. Proin eu nunc ac leo tempus accumsan!!!
+
+---
+
+#### 💥 Breaking Change
+
+- Major refactor of foo and bar [#12](https://github.com/pboi20/intuit-auto-test/pull/12) ([@pboi20](https://github.com/pboi20))
+
+#### 🐛 Bug Fix
+
+- fix(docs): Update foo.md [#13](https://github.com/pboi20/intuit-auto-test/pull/13) ([@pboi20](https://github.com/pboi20))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboi20](https://github.com/pboi20))
+
+---
+
 # v0.4.0 (Thu Aug 05 2021)
 
 #### 🚀 Enhancement
