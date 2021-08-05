@@ -27,7 +27,7 @@ jobs:
 
       - name: Create Release
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           yarn install --frozen-lockfile
           npx auto shipit
