@@ -3,5 +3,6 @@ export default class Bar {
         console.log("bar")
         console.log("bar")
         console.log("bar")
+        console.log("bar")
     }
 }
