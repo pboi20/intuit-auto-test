@@ -1,3 +1,28 @@
+# v1.1.0 (Fri Aug 06 2021)
+
+### Release Notes
+
+#### fix(docs): Bla bla ([#16](https://github.com/pboi20/intuit-auto-test/pull/16))
+
+oooooooooooooooooooooooooooooooooooooooooooooo
+
+---
+
+#### 🚀 Enhancement
+
+- fix(docs): Bla bla [#16](https://github.com/pboi20/intuit-auto-test/pull/16) ([@pboi20](https://github.com/pboi20))
+- feat(bar): Add stuff [#14](https://github.com/pboi20/intuit-auto-test/pull/14) ([@pboi20](https://github.com/pboi20))
+
+#### 🐛 Bug Fix
+
+- Update foo.js [#15](https://github.com/pboi20/intuit-auto-test/pull/15) ([@pboi20](https://github.com/pboi20))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboi20](https://github.com/pboi20))
+
+---
+
 # v1.0.0 (Thu Aug 05 2021)
 
 ### Release Notes
