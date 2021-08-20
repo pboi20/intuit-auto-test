@@ -34,7 +34,7 @@ module.exports = class BumpPackageVersion {
        * Update TwillServiceProvider version
        */
       let serviceProvider = await readFile(SERVICE_PROVIDER_PATH, "utf-8")
-      serviceProvider.replace(/    const VERSION = '.*';/, `    const VERSION='${nextVersion}';`)
+      serviceProvider.replace(/const VERSION = '[\d\.]+';/g, `const VERSION = '${nextVersion}';`)
       await writeFile(SERVICE_PROVIDER_PATH, serviceProvider, "utf-8")
 
       /**
