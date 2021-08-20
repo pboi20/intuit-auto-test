@@ -6,6 +6,9 @@ const writeFile = promisify(require('fs').writeFile)
 
 const PACKAGE_JSON_PATH = "./package.json"
 const SERVICE_PROVIDER_PATH = "./src/TwillServiceProvider.php"
+const BUMPED_FILES = [PACKAGE_JSON_PATH, SERVICE_PROVIDER_PATH]
+
+const quoteFiles = files => files.map(f => `'${f}'`).join(' ')
 
 /**
  * This should be a qualifier like `major`, `minor`, `patch`, ... 
@@ -41,11 +44,13 @@ if (!Boolean(versionBump)) {
   await writeFile(SERVICE_PROVIDER_PATH, serviceProvider, "utf-8")
 
   /**
-   * Push changes
+   * Commit version bumps
    */
   await exec("git config --global user.name 'Release Manager'")
   await exec("git config --global user.email 'bob@test.test'")
-  await exec("git add --all .")
+  await exec(`git add ${quoteFiles(BUMPED_FILES)}`)
   await exec("git commit -m 'Bump version [skip ci]'")
-  await exec("git push --all")
+
+  // XXX do not push here, let auto handle the push in the final `npx auto shipit` step
+  //await exec("git push --all")
 })()
