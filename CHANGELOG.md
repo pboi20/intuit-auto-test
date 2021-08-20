@@ -1,3 +1,19 @@
+# v2.0.0 (Fri Aug 20 2021)
+
+#### 💥 Breaking Change
+
+- Update bar.js [#28](https://github.com/pboivin/intuit-auto-test/pull/28) ([@pboivin](https://github.com/pboivin))
+
+#### 🐛 Bug Fix
+
+- Update foo.js [#27](https://github.com/pboivin/intuit-auto-test/pull/27) ([@pboivin](https://github.com/pboivin))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboivin](https://github.com/pboivin))
+
+---
+
 # v1.7.0 (Fri Aug 20 2021)
 
 #### 🚀 Enhancement
