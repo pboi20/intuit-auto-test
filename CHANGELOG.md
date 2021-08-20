@@ -1,3 +1,19 @@
+# v2.2.0 (Fri Aug 20 2021)
+
+#### 🚀 Enhancement
+
+- Update foo.js [#30](https://github.com/pboivin/intuit-auto-test/pull/30) ([@pboivin](https://github.com/pboivin))
+
+#### ⚠️ Pushed to `main`
+
+- WIP ([@pboivin](https://github.com/pboivin))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboivin](https://github.com/pboivin))
+
+---
+
 # v2.1.0 (Fri Aug 20 2021)
 
 #### 🚀 Enhancement
