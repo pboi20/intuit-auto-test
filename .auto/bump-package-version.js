@@ -28,14 +28,14 @@ module.exports = class BumpPackageVersion {
        * Update package.json version
        */
       packageJson.version = nextVersion
-      await writeFile(JSON.stringify(packageJson, null, "  "), PACKAGE_JSON_PATH, "utf-8")
+      await writeFile(PACKAGE_JSON_PATH, JSON.stringify(packageJson, null, "  "), "utf-8")
 
       /**
        * Update TwillServiceProvider version
        */
       let serviceProvider = await readFile(SERVICE_PROVIDER_PATH, "utf-8")
       serviceProvider.replace(/    const VERSION = '.*';/, `    const VERSION='${nextVersion}';`)
-      await writeFile(serviceProvider, SERVICE_PROVIDER_PATH, "utf-8")
+      await writeFile(SERVICE_PROVIDER_PATH, serviceProvider, "utf-8")
 
       /**
        * Push changes
