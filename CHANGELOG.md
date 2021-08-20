@@ -1,3 +1,15 @@
+# v1.4.0 (Fri Aug 20 2021)
+
+#### 🚀 Enhancement
+
+- feat: Version bump [#20](https://github.com/pboivin/intuit-auto-test/pull/20) ([@pboivin](https://github.com/pboivin))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboivin](https://github.com/pboivin))
+
+---
+
 # v1.3.0 (Fri Aug 20 2021)
 
 #### 🚀 Enhancement
