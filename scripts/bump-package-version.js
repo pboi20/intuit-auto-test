@@ -48,7 +48,7 @@ if (!Boolean(versionBump)) {
    */
   //await exec("git config --global user.name 'Release Manager'")
   //await exec("git config --global user.email 'bob@test.test'")
-  //await exec(`git add ${quoteFiles(BUMPED_FILES)}`)
+  await exec(`git add ${quoteFiles(BUMPED_FILES)}`)
   //await exec("git commit -m 'Bump version [skip ci]'")
   //await exec("git push --all")
 })()
