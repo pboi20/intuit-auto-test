@@ -33,5 +33,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
         run: |
           yarn install --frozen-lockfile
-          node ./scripts/bump-ackage-version.js "$(npx auto version)"
+          node ./scripts/bump-package-version.js "$(npx auto version)"
           npx auto shipit
