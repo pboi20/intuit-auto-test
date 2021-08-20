@@ -2,9 +2,10 @@
   "plugins": [
     "git-tag",
     "all-contributors",
-    "conventional-commits"
+    "conventional-commits",
+    "./auto/bump-package-version.js"
   ],
-  "owner": "pboi20",
+  "owner": "pboivin",
   "repo": "intuit-auto-test",
   "name": "Release Manager",
   "email": "bob@test.test",
