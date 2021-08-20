@@ -40,7 +40,8 @@ module.exports = class BumpPackageVersion {
       /**
        * Push changes
        */
-      await core.execPromise("git", ["commit", "-am", "Bump version [skip ci]"]);
+      await core.execPromise("git", ["add", "--all", "."]);
+      await core.execPromise("git", ["commit", "-m", "'Bump version [skip ci]'"]);
       await core.execPromise("git", ["push", "--all"]);
     })
   }
