@@ -1,4 +1,4 @@
-const fs = require('fs')
+// const fs = require('fs')
 
 module.exports = class BumpPackageVersion {
   constructor() {
@@ -7,7 +7,9 @@ module.exports = class BumpPackageVersion {
 
   apply(auto) {
     auto.hooks.version.tapPromise("BumpPackageVersion", async ({ bump, dryRun, quiet }) => {
-      fs.writeFile('BUMP.txt', bump)
+      console.log('BUMP = ' + bump)
+
+      // fs.writeFile('BUMP.txt', bump)
 
       // if (dryRun) {
       //   const { version } = await loadPackageJson()

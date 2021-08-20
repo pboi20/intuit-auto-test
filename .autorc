@@ -3,7 +3,7 @@
     "git-tag",
     "all-contributors",
     "conventional-commits",
-    "./auto/bump-package-version.js"
+    ".auto/bump-package-version.js"
   ],
   "owner": "pboivin",
   "repo": "intuit-auto-test",
