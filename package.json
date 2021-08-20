@@ -1,6 +1,6 @@
 {
   "name": "@pboivin/intuit-auto-test",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "devDependencies": {
     "@auto-it/all-contributors": "^10.30.0",
