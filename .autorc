@@ -2,8 +2,7 @@
   "plugins": [
     "git-tag",
     "all-contributors",
-    "conventional-commits",
-    ".auto/bump-package-version.js"
+    "conventional-commits"
   ],
   "owner": "pboivin",
   "repo": "intuit-auto-test",
