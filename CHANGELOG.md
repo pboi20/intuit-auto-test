@@ -1,3 +1,32 @@
+# v3.0.0 (Fri Aug 20 2021)
+
+#### 💥 Breaking Change
+
+- Update foo.js [#34](https://github.com/pboivin/intuit-auto-test/pull/34) ([@pboivin](https://github.com/pboivin))
+- Update bar.js [#32](https://github.com/pboivin/intuit-auto-test/pull/32) ([@pboivin](https://github.com/pboivin))
+
+#### 🚀 Enhancement
+
+- Update foo.js [#31](https://github.com/pboivin/intuit-auto-test/pull/31) ([@pboivin](https://github.com/pboivin))
+
+#### 🐛 Bug Fix
+
+- Update foo.js [#36](https://github.com/pboivin/intuit-auto-test/pull/36) ([@pboivin](https://github.com/pboivin))
+- fix: Update bar.js [#35](https://github.com/pboivin/intuit-auto-test/pull/35) ([@pboivin](https://github.com/pboivin))
+- Update foo.js [#33](https://github.com/pboivin/intuit-auto-test/pull/33) ([@pboivin](https://github.com/pboivin))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:pboi20/intuit-auto-test into main ([@pboivin](https://github.com/pboivin))
+- WIP ([@pboivin](https://github.com/pboivin))
+- WIP - no commit/push for version bump ([@pboivin](https://github.com/pboivin))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboivin](https://github.com/pboivin))
+
+---
+
 # v2.2.0 (Fri Aug 20 2021)
 
 #### 🚀 Enhancement
