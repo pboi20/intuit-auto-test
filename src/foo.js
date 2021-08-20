@@ -5,5 +5,6 @@ export default class Foo {
         console.log("foo")
         console.log("foo")
         console.log("foo")
+        console.log("foo")
     }
 }
