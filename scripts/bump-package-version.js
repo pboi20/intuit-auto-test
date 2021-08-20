@@ -16,6 +16,8 @@ const versionBump = process.argv[2]
 if (!Boolean(versionBump)) {
   console.log("No version bump")
   process.exit(0)
+} else {
+  console.log(`Version bump: ${versionBump}`)
 }
 
 (async function main() {
