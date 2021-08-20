@@ -1,5 +1,5 @@
 const core = require("@auto-it/core")
-
+const inc = require('semver').inc
 const fs = require("fs")
 const promisify = require("util").promisify
 
