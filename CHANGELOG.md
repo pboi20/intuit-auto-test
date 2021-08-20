@@ -1,3 +1,22 @@
+# v2.1.0 (Fri Aug 20 2021)
+
+#### 🚀 Enhancement
+
+- Update bar.js [#29](https://github.com/pboivin/intuit-auto-test/pull/29) ([@pboivin](https://github.com/pboivin))
+
+#### ⚠️ Pushed to `main`
+
+- Small fix ([@pboivin](https://github.com/pboivin))
+- Merge branch 'main' of github.com:pboi20/intuit-auto-test into main ([@pboivin](https://github.com/pboivin))
+- Cleanup. Update workflow. ([@pboivin](https://github.com/pboivin))
+- Extract standalone script ([@pboivin](https://github.com/pboivin))
+
+#### Authors: 1
+
+- Patrick Boivin ([@pboivin](https://github.com/pboivin))
+
+---
+
 # v2.0.0 (Fri Aug 20 2021)
 
 #### 💥 Breaking Change
